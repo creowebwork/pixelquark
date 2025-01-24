@@ -691,7 +691,7 @@ body {
 		margin-bottom: 30px;
 	}
 	.works-work img {
-		max-width: 400px;
+		max-width: 350px;
 	}
 	.works-list {
 		gap: 20px 0;
@@ -726,5 +726,31 @@ body {
 	}
 	.works-list {
 		padding: 0 20px;
+	}
+	.footer-contact li {
+		font-size: 13px;
+		margin-left: 20px;
+	}
+	.footer-contact li:before {
+		width: 20px;
+		height: 20px;
+		left: -27px;
+		top: -2px;
+	}
+	.partner-inner {
+		padding: 0;
+	}
+	.partner {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.consultation-row {
+		display: flex;
+		flex-direction: column;
+		gap: 15px 8px;
+		margin-bottom: 15px;
+	}
+	.consultation-input {
+		width: 100%;
 	}
 }
