@@ -125,7 +125,6 @@ body {
 	font-weight: 700;
 	letter-spacing: 1px;
 	padding: 20px 70px 20px 20px;
-	border-radius: 10px;
 	display: inline-block;
 	position: relative;
 	background: radial-gradient(circle at 100% 100%, #000000 0, #000000 16px, transparent 16px) 0% 0%/17px 17px no-repeat,
@@ -135,7 +134,7 @@ body {
             linear-gradient(#000000, #000000) 50% 50%/calc(100% - 2px) calc(100% - 34px) no-repeat,
             linear-gradient(#000000, #000000) 50% 50%/calc(100% - 34px) calc(100% - 2px) no-repeat,
             linear-gradient(70deg, #ffffff 0%, #48f1f9 25%, #5e40f1 50%, #f444fd 75%, #bf47f6 100%);
-	border-radius: 17px;
+	border-radius: 15px;
 	box-sizing: border-box;
 }
 
