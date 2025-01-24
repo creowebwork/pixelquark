@@ -127,14 +127,8 @@ body {
 	padding: 20px 70px 20px 20px;
 	display: inline-block;
 	position: relative;
-	background: radial-gradient(circle at 100% 100%, #000000 0, #000000 16px, transparent 16px) 0% 0%/17px 17px no-repeat,
-            radial-gradient(circle at 0 100%, #000000 0, #000000 16px, transparent 16px) 100% 0%/17px 17px no-repeat,
-            radial-gradient(circle at 100% 0, #000000 0, #000000 16px, transparent 16px) 0% 100%/17px 17px no-repeat,
-            radial-gradient(circle at 0 0, #000000 0, #000000 16px, transparent 16px) 100% 100%/17px 17px no-repeat,
-            linear-gradient(#000000, #000000) 50% 50%/calc(100% - 2px) calc(100% - 34px) no-repeat,
-            linear-gradient(#000000, #000000) 50% 50%/calc(100% - 34px) calc(100% - 2px) no-repeat,
-            linear-gradient(70deg, #ffffff 0%, #48f1f9 25%, #5e40f1 50%, #f444fd 75%, #bf47f6 100%);
-	border-radius: 15px;
+	border: 1px solid #fff;
+	border-radius: 16px;
 	box-sizing: border-box;
 }
 
@@ -177,13 +171,7 @@ body {
 	letter-spacing: 0.7px;
 	border-radius: 10px;
 	color: #fff;
-	background: radial-gradient(circle at 100% 100%, #000000 0, #000000 16px, transparent 16px) 0% 0%/17px 17px no-repeat,
-            radial-gradient(circle at 0 100%, #000000 0, #000000 16px, transparent 16px) 100% 0%/17px 17px no-repeat,
-            radial-gradient(circle at 100% 0, #000000 0, #000000 16px, transparent 16px) 0% 100%/17px 17px no-repeat,
-            radial-gradient(circle at 0 0, #000000 0, #000000 16px, transparent 16px) 100% 100%/17px 17px no-repeat,
-            linear-gradient(#000000, #000000) 50% 50%/calc(100% - 2px) calc(100% - 34px) no-repeat,
-            linear-gradient(#000000, #000000) 50% 50%/calc(100% - 34px) calc(100% - 2px) no-repeat,
-            linear-gradient(150deg, #ffffff 0%, #48f1f9 25%, #5e40f1 50%, #f444fd 75%, #bf47f6 100%);
+	border: 1px solid #fff;
 	border-radius: 17px;
 	box-sizing: border-box;
 }
@@ -269,13 +257,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: radial-gradient(circle at 100% 100%, #000000 0, #000000 16px, transparent 16px) 0% 0%/17px 17px no-repeat,
-            radial-gradient(circle at 0 100%, #000000 0, #000000 16px, transparent 16px) 100% 0%/17px 17px no-repeat,
-            radial-gradient(circle at 100% 0, #000000 0, #000000 16px, transparent 16px) 0% 100%/17px 17px no-repeat,
-            radial-gradient(circle at 0 0, #000000 0, #000000 16px, transparent 16px) 100% 100%/17px 17px no-repeat,
-            linear-gradient(#000000, #000000) 50% 50%/calc(100% - 2px) calc(100% - 34px) no-repeat,
-            linear-gradient(#000000, #000000) 50% 50%/calc(100% - 34px) calc(100% - 2px) no-repeat,
-            linear-gradient(150deg, #ffffff 0%, #48f1f9 25%, #5e40f1 50%, #f444fd 75%, #bf47f6 100%);
+	background: #000;
+	border: 1px solid #fff;
 	border-radius: 17px;
 	width: 100%;
 	height: 40px;
@@ -751,5 +734,8 @@ body {
 	}
 	.consultation-input {
 		width: 100%;
+	}
+	.hero-offer-title {
+		line-height: 38px;
 	}
 }
